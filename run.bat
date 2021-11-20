@@ -1,2 +1,2 @@
 cd C:\Users\praja\eclipse-workspace\inetBankingV1
-mvn clean install
+mvn test
