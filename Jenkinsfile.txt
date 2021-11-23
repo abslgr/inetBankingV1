@@ -13,12 +13,6 @@ echo 'Testing..'
 bat "mvn test"
 }
 }
-stage('Compile') {
-steps {
-echo 'Compiling....'
-bat "mvn compile"
-}
-}
 stage('Deploy') {
 steps {
 echo 'Deploying....'
