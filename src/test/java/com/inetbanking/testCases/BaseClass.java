@@ -50,7 +50,7 @@ public class BaseClass {
 			driver = new InternetExplorerDriver();
 		}
 		driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
-		// driver.manage().window().maximize();
+		driver.manage().window().maximize();
 		driver.get(baseurl);
 	}
 

@@ -23,6 +23,7 @@ public class TC_AddCustomer_003 extends BaseClass {
 		lp.clickSubmit();
 		logger.info("clicked on login button");
 		Thread.sleep(3000);
+		logger.info("**************************");
 
 		AddCustomerPage adcust = new AddCustomerPage(driver);
 		adcust.clickAddnewcustomer();
@@ -61,6 +62,8 @@ public class TC_AddCustomer_003 extends BaseClass {
 		if (res == true) {
 			Assert.assertTrue(true);
 			logger.info("test passed");
+			logger.info("**************************");
+
 		} else {
 			captureScreen(driver, "addNewCustomer");
 			logger.warn("test failed");

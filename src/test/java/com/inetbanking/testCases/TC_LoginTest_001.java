@@ -22,10 +22,11 @@ public class TC_LoginTest_001 extends BaseClass {
 		logger.info("password entered");
 		lp.clickSubmit();
 		logger.info("clicked on login button");
-
+		logger.info("************************");
 		if (driver.getTitle().equalsIgnoreCase("Guru99 Bank Manager HomePage")) {
 			Assert.assertTrue(true);
 			logger.info("login successful");
+
 		} else {
 			captureScreen(driver, "loginTest");
 			Assert.assertTrue(false);
