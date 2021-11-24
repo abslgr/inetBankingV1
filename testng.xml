@@ -7,7 +7,7 @@
 	<test thread-count="5" name="BankingApp Test">
 		<parameter name="browser" value="chrome" />
 		<classes>		
-		<class name="com.inetbanking.testCases.TC_EditCustomer_004" />	
+		<class name="com.inetbanking.testCases.TC_AddAccount_005" />	
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
